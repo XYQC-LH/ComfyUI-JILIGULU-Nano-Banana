@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jiligulu-nano-banana"
+version = "0.1.0"
+description = "Use JILIGULU Nano Banana models inside ComfyUI."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = []
+
+[tool.comfy]
+PublisherId = "xyqc-lh"
+DisplayName = "JILIGULU Nano Banana"
+Icon = "https://raw.githubusercontent.com/XYQC-LH/ComfyUI-JILIGULU-Nano-Banana/main/assets/icon.svg"
