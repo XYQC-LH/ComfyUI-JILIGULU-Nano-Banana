@@ -11,6 +11,11 @@ requires-python = ">=3.10"
 license = { file = "LICENSE" }
 dependencies = []
 
+[project.urls]
+Repository = "https://github.com/XYQC-LH/ComfyUI-JILIGULU-Nano-Banana.git"
+Documentation = "https://github.com/XYQC-LH/ComfyUI-JILIGULU-Nano-Banana#readme"
+Issues = "https://github.com/XYQC-LH/ComfyUI-JILIGULU-Nano-Banana/issues"
+
 [tool.comfy]
 PublisherId = "xyqc-lh"
 DisplayName = "JILIGULU Nano Banana"
